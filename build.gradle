@@ -1,0 +1,13 @@
+allprojects{
+	group = 'com.lal.springmvc'
+
+	repositories{  mavenCentral()  }
+}
+
+subprojects{
+	apply plugin: 'java'
+	apply plugin: 'eclipse'
+}
+
+
+task wrapper(type: Wrapper){  gradleVersion = '1.6' }
