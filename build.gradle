@@ -1,5 +1,5 @@
 allprojects{
-	group = 'com.lal.springmvc'
+	group = 'examples.springmvc'
 
 	repositories{  mavenCentral()  }
 }
